@@ -5,7 +5,7 @@ const { query } = require("./data.js");
 
 app.use(express.json());
 
-app.get("/api/books", async (req, res) => {
+app.get("/api/books20001375", async (req, res) => {
   console.info(`Getting all books`);
 
   const books = await query("SELECT * FROM tblbook");
